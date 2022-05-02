@@ -1,5 +1,5 @@
 import './About.css';
-import image from './images/1.png';
+import image from '../assets/ALF.jpeg';
 import brush from './images/brush.png';
 
 

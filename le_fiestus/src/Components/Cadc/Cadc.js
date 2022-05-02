@@ -1,5 +1,5 @@
 import './Cadc.css';
-import image from './images/1.png';
+import image from '../assets/CDAC1.jpeg';
 import brush from './images/brush.png';
 import TopImage from './images/top-design.png'
 

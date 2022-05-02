@@ -7,8 +7,8 @@ import { Link as LNK } from "react-scroll";
 
 //Icon
 import Hamburger from "hamburger-react";
-
 import lflogo from "./Pattern/LF64px.png";
+import JYC from "./Pattern/jyc.png" 
 
 function Navbar() {
   const [header, setHeader] = useState(false);
@@ -47,6 +47,9 @@ function Navbar() {
             <Hamburger toggled={click} toggle={setClick} />
           </section>
           <section className="Click-Text"> Menu</section>
+        </div>
+        <div className="JYC-Logo">
+          <img src={JYC} alt={JYC}/>
         </div>
       </div>
       <div className={click ? "Nav-Container_active" : "Nav-Container"}>
@@ -109,7 +112,7 @@ function Navbar() {
           </li>
           <li className="Nav-Link">
             <LNK
-              to="aboutClubs"
+              to="clubs-page"
               className="nav-links"
               activeClassName="active"
               onClick={handleClick}

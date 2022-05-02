@@ -19,6 +19,7 @@
 .about-image-lf {
     margin-left: 15%;
 }
+
 .about-image-lf img {
     height: 400px;
     width: 475px;
@@ -26,7 +27,7 @@
 
 .heading-about {
     display: flex;
- 
+
     justify-content: center;
 
 }
@@ -41,14 +42,14 @@
 
 
 .text-about {
-   margin-top: 0rem;
+    margin-top: 4rem;
     margin-left: 10rem;
     text-align: justify;
     margin-right: 8rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width:1000px){
 
 
     .container-about-page {
@@ -64,7 +65,7 @@
 
 
     .heading-about-text-about {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .paint-image-about img {
@@ -73,13 +74,13 @@
     }
 
     .paint-image-about {
-        margin-top: 4rem;
-        margin-left:20% ;
+        margin-top: 2rem;
+        margin-left: -7rem;
     }
 
 
     .heading-about {
-        margin-left: 10%;
+        margin-left: 0%;
         
     }
 
