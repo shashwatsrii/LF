@@ -51,6 +51,10 @@
 /* width: 100%; */
 transform: scale(0.35);
 }
+.sponsors-link-to-page{
+    text-decoration: none;
+    color: #fff;
+}
 .Click-Menu{
     display: flex;
     padding: 2vh 5vw;

@@ -1,30 +1,22 @@
-import React from 'react'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import "./App.css";
-
-import Navbar from './Components/Navbar/Navbar'
-import Landing from  './Components/Landing/Landing'
-import About from './Components/About/About'
-import Cadc from './Components/Cadc/Cadc'
-import Photogallery from './Components/lf/Photogallerylf'
-import Events from './Components/Events/Events/Events'
-import Clubs from './Components/Clubs/Clubs'
-import Sponsors from './Components/Sponsors/Sponsors'
-import Footer from './Components/Footer/Footer/Footer'
+import HomePage from "./Components/HomePage";
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Landing/>
-      <About/>
-      <Cadc/>
-      <Photogallery/>
-      <Events/>
-      <Clubs/>
-      <Sponsors/>
-      <Footer/>
+      {/* <HomePage/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="sponsors" element={<Sponsors />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
