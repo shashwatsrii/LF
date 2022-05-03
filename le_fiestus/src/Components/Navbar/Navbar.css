@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 13vh;
     transition: all 0.5s ease-out;
 }
 .header.active {
@@ -29,7 +28,7 @@
 }
 .Nav-Container_active{
 
-    height: 87vh;
+    height: 94vh;
     position: sticky;
     left: 100%;
     transition: 0.4s ease-in-out;
@@ -43,10 +42,26 @@
     display: flex;
     justify-content: center;
 }
+.Click-Text{
+    margin-top: 4px
+}
+.JYC-Logo{
+    padding: 2vh 2vw;
+}
+
+/* .jyclogo{
+    padding: 2vh 2vw;
+} */
+
 #LF{
     transform: scale(1);
     width: 100%;  
   }
+#LF:hover{
+    border: 1px solid white;
+    border-radius:3px;
+    transition: all 0.3s ease-out;
+}
 #Cultural{
 /* width: 100%; */
 transform: scale(0.35);
@@ -96,14 +111,24 @@ transform: scale(0.35);
     line-height: 10px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .Click-Text{
         display: none;
+    }
+    .JYC-Logo{
+        display: none;
+    }
+    
+    .header{
+        height: 8vh;
     }
     .Click-Menu{
         padding: 0vh 2vw;
     }
     .Nav-Link{
         padding: 2vh 5vw;
+    }
+    .Nav-Container_active{
+        height: 94vh;
     }
 }

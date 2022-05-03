@@ -1,9 +1,9 @@
 import "./Events.css";
 import { useState } from "react";
 import Slider1 from "react-slick";
-import image1 from "./images/Frame1.png"
-import image2 from "./images/Frame2.png"
-import image3 from "./images/Frame3.png"
+import image1 from "./images/day1.jpeg"
+import image2 from "./images/day2.jpeg"
+import image3 from "./images/day3.jpeg"
 import brush from "./images/brush.png"
 // import { Link } from "react-router-dom";
 

@@ -19,10 +19,13 @@ function Footer() {
                 Jaypee University Of Information Technology Waknaghat, HP -
                 173234, India
                 <br />
-                Phone: +91-9418838790
+                Phone: +91-7599003687
                 <br />
-                Email: technicalclub.jyc@juitsolan.in
+                Email: president.jyc@juitsolan.in
                 <br />
+                Support : technicalclub.jyc@juitsolan.in
+                <br/>
+
               </div>
 
               <div className="Footer-Socials">

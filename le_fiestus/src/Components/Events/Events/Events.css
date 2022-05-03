@@ -4,7 +4,7 @@
 
 
 .container-teams1{
-  margin-top: 1rem;
+  margin-top: 0rem;
   /* width: 98vw;  */
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
 }
 @media only screen and (max-width:1024px) {
   .container-teams1{
-    margin-top: 5rem;
+    margin-top: 0rem;
     width: 100vw;
   }
   .TitleTeam1{

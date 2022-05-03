@@ -1,10 +1,9 @@
-body {
-    background-color: rgb(216, 216, 216);
-   
+.cadc{
+    background-image: url(./images/image-bg.png)
 }
-
 .top-design img {
     width: 97vw;
+    margin-top: -0.5rem;
 }
 
 .container-rightside {
@@ -55,11 +54,11 @@ body {
     text-align: justify;
     padding-right: 15%;
     font-size: 1.5rem;
-    margin-top: -2rem;
+    margin-top: -1rem;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
 
     .container-rightside {
@@ -74,24 +73,19 @@ body {
     }
 
 
-    .heading-text-cadc {
-        font-size: 2rem;
-    }
 
     .paint-brush-image img {
-        height: 5vw;
-        width: 20vw;
+        height: 6vw;
+        width: 40vw;
     }
 
     .paint-brush-image {
-        margin-top: 4rem;
+        margin-top: 3.5rem;
+        margin-left: -21rem;
     }
 
 
-    .heading-cadc {
-        margin-left: 10%;
-        margin-top: -8%;
-    }
+
 
     .cadc-image {
         margin-top: 0rem;
@@ -105,8 +99,9 @@ body {
         padding-left: 10%;
         text-align: justify;
         padding-right: 10%;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         font-size: 1.2rem;
+        
     }
 
     .text-cadc {

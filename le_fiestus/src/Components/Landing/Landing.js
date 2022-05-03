@@ -6,7 +6,7 @@ function Landing() {
   return (
   <div className='landing-page'>
     <div className='containerLanding'>
-      <div className='head'>
+      <div id='HeadID' className='head'>
         <h3 className="main-heading">Le Fiestus '22</h3>
         <h5 className="sub-heading">Biggest Cultural Fest of Juit</h5>
         <CountdownTimer

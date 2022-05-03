@@ -49,7 +49,7 @@ function Navbar() {
           <section className="Click-Text"> Menu</section>
         </div>
         <div className="JYC-Logo">
-          <img src={JYC} alt={JYC}/>
+          <img src={JYC} alt={JYC} className="jyclogo"/>
         </div>
       </div>
       <div className={click ? "Nav-Container_active" : "Nav-Container"}>
@@ -79,7 +79,7 @@ function Navbar() {
               offset={-50}
               duration={1000}
             >
-              Cultural Club
+              Cultural & Dance Club
             </LNK>
           </li>
           <li className="Nav-Link">
@@ -125,7 +125,7 @@ function Navbar() {
             </LNK>
           </li>
           <li className="Nav-Link">
-            <Link to="sponsors" className="sponsors-link-to-page">
+            <Link to="/sponsors" className="sponsors-link-to-page">
               Our Sponsors
             </Link>
           </li>

@@ -1,8 +1,8 @@
 .container-about-page {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 .paint-image-about img {
@@ -18,6 +18,7 @@
 
 .about-image-lf {
     margin-left: 15%;
+    margin-top: 6rem;
 }
 
 .about-image-lf img {
@@ -46,7 +47,8 @@
     margin-left: 10rem;
     text-align: justify;
     margin-right: 8rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
  @media screen and (max-width:1000px){
@@ -64,18 +66,15 @@
     }
 
 
-    .heading-about-text-about {
-        font-size: 3rem;
-    }
-
+  
     .paint-image-about img {
         height: 5vw;
         width: 20vw;
     }
 
     .paint-image-about {
-        margin-top: 2rem;
-        margin-left: -7rem;
+        margin-top: 4rem;
+        margin-left: -10rem;
     }
 
 
@@ -100,6 +99,10 @@
         font-size: 1.2rem;
         margin-bottom: 1rem;
         order: 1;
+    }
+    .about-image-lf {
+        margin-left: 15%;
+        margin-top: 2rem;
     }
 
 
