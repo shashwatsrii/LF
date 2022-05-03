@@ -10,9 +10,10 @@
 }
 
 .ques-wrapper-1 .ques-heading-teams-titlebox,
+.ques-wrapper-3 .ques-heading-teams-titlebox,
 .ques-wrapper-2 .ques-heading-teams-titlebox {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.6rem;
   color: rgb(0, 0, 0);
@@ -29,28 +30,33 @@
 
 
 .ques-1,
+.ques-3,
 .ques-2 {
   width: 50vw;
 }
 
 .ques-wrapper-1 .list,
 .ques-wrapper-2 .list,
+.ques-wrapper-3 .list,
 .more-option-hide {
   display: none;
 }
 
 .ques-wrapper-1-active .more-option-show,
+.ques-wrapper-3-active .more-option-show,
 .ques-wrapper-2-active .more-option-show {
   display: none;
 }
 
 .ques-wrapper-1-active .more-option-hide,
+.ques-wrapper-3-active .more-option-hide,
 .ques-wrapper-2-active .more-option-hide {
   display: flex;
 }
 
 
 .ques-wrapper-1-active .list,
+.ques-wrapper-3-active .list,
 .ques-wrapper-2-active .list {
 
   display: flex;
@@ -67,6 +73,7 @@
 }
 
 .ques-wrapper-1-active .list-item,
+.ques-wrapper-3-active .list-item,
 .ques-wrapper-2-active .list-item {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -76,6 +83,7 @@
 
 
 .ques-wrapper-1-active .ques-heading-teams-titlebox,
+.ques-wrapper-3-active .ques-heading-teams-titlebox,
 .ques-wrapper-2-active .ques-heading-teams-titlebox {
   margin-bottom: 2rem;
 
@@ -84,7 +92,9 @@
 
 .ques-wrapper-1 .more-option-show,
 .ques-wrapper-2 .more-option-show,
+.ques-wrapper-3 .more-option-show,
 .ques-wrapper-1-active .more-option-hide,
+.ques-wrapper-3-active .more-option-hide,
 .ques-wrapper-2-active .more-option-hide {
   cursor: pointer;
   font-weight: bold;
@@ -129,6 +139,7 @@
   }
 
   .ques-wrapper-1 .ques-heading-teams-titlebox,
+  .ques-wrapper-3 .ques-heading-teams-titlebox,
   .ques-wrapper-2 .ques-heading-teams-titlebox {
     padding: 0.7rem;
     font-size: 0.5rem;
@@ -142,11 +153,13 @@
 
 
   .ques-1,
+  .ques-3,
   .ques-2 {
     width: 100vw;
   }
 
   .ques-wrapper-1-active .list,
+  .ques-wrapper-3-active .list,
   .ques-wrapper-2-active .list {
     margin-left: 4rem;
     width: 65vw;
@@ -158,6 +171,7 @@
   }
 
   .ques-wrapper-1-active .list-item,
+  .ques-wrapper-3-active .list-item,
   .ques-wrapper-2-active .list-item {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -165,6 +179,7 @@
   }
 
   .ques-wrapper-1-active .ques-heading-teams-titlebox,
+  .ques-wrapper-3-active .ques-heading-teams-titlebox,
   .ques-wrapper-2-active .ques-heading-teams-titlebox {
     margin-bottom: 1rem;
 
